@@ -1,0 +1,20 @@
+[core]
+	editor = subl --project /home/daniel/.gitconfig.sublime-project --wait
+	excludesfile = /home/daniel/.gitignore_global
+
+[color "diff"]
+	whitespace = red reverse
+
+[include]
+	path = ~/.gitconfig.user
+[init]
+	defaultBranch = master
+[help]
+	format = html
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset' --abbrev-commit
+	fixup = "!sh -c '(git diff-files --quiet || (echo Unstaged changes, please commit or stash with --keep-index; exit 1)) && COMMIT=$(git rev-parse $1) && git commit --fixup=$COMMIT && git rebase -i --autosquash $COMMIT~1' -"
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+[url "git@gitlab.com:"]
+	insteadOf = https://gitlab.com/
