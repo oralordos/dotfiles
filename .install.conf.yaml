@@ -5,6 +5,7 @@
     ~/.config/nvim:
         create: true
     ~/.gitconfig:
+    ~/.gitignore_global:
     ~/.zprofile:
     ~/.zshrc:
 
