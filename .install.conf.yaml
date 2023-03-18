@@ -1,0 +1,12 @@
+- clean: ['~', '~/.config']
+
+- link:
+    ~/.dotfiles: ''
+    ~/.config/nvim:
+        create: true
+    ~/.gitconfig:
+    ~/.zprofile:
+    ~/.zshrc:
+
+- shell:
+    - git submodule update --init --recursive

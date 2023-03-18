@@ -1,5 +1,5 @@
 [core]
-	editor = subl --project /home/daniel/.gitconfig.sublime-project --wait
+  editor = nvim
 	excludesfile = /home/daniel/.gitignore_global
 
 [color "diff"]
