@@ -2,3 +2,9 @@
 	path = .dotbot
 	url = https://github.com/anishathalye/dotbot
 	ignore = dirty
+[submodule "nvim/pack/plugins/start/vim-endwise"]
+	path = nvim/pack/plugins/start/vim-endwise
+	url = git@github.com:tpope/vim-endwise.git
+[submodule "nvim/pack/plugins/start/vim-closer"]
+	path = nvim/pack/plugins/start/vim-closer
+	url = git@github.com:rstacruz/vim-closer.git
