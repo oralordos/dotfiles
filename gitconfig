@@ -1,5 +1,4 @@
 [core]
-  editor = nvim
 	excludesfile = /home/daniel/.gitignore_global
 
 [color "diff"]

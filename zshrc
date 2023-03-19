@@ -11,6 +11,7 @@ SAVEHIST=1000
 bindkey -e
 # End of lines configured by zsh-newuser-install
 source /usr/share/git/completion/git-prompt.sh
+export GIT_PS1_SHOWDIRTYSTATE=true
 setopt PROMPT_SUBST ; PS1='%F{green}%n%f@%m %F{green}%c%f$(__git_ps1 " (%%F{yellow}%s%%f)")\$ '
 
 # Get the git history of some lines.
