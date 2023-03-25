@@ -1,7 +1,6 @@
 -- Look in `:help options` for documentation for each option
 local options = {
   -- signcolumn = 'yes',                      -- always show gutter for LSP signs
-  -- termguicolors = true,                    -- allow full 24-bit color support
   backup = false,                          -- do not keep the backup file after save is complete
   clipboard = 'unnamedplus',               -- use system clipboard by default
   cmdheight = 2,                           -- more space for the command area for displaying messages without needing a full screen dialog
@@ -29,6 +28,7 @@ local options = {
   splitright = true,                       -- open new vertical splits to the right of current panel
   swapfile = false,                        -- do not use a file for the open buffer, keeps open information confidential
   tabstop = 2,                             -- decrease tab size
+  termguicolors = true,                    -- allow full 24-bit color support
   timeoutlen = 300,                        -- set timeout for keymaps that take multiple keys in sequence
   undofile = true,                         -- keep undo history when closing and restarting neovim
   wrap = true,                             -- split lines to show entire long line

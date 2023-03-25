@@ -8,3 +8,9 @@
 [submodule "nvim/pack/plugins/start/vim-closer"]
 	path = nvim/pack/plugins/start/vim-closer
 	url = git@github.com:rstacruz/vim-closer.git
+[submodule "nvim/pack/plugins/start/dracula"]
+	path = nvim/pack/plugins/start/dracula
+	url = git@github.com:dracula/vim.git
+[submodule "nvim/pack/plugins/start/tokyonight.nvim"]
+	path = nvim/pack/plugins/start/tokyonight.nvim
+	url = git@github.com:folke/tokyonight.nvim.git
