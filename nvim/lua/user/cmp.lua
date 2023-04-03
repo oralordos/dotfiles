@@ -87,16 +87,17 @@ cmp.setup({
         luasnip = '[Snippet]',
         buffer = '[Buffer]',
         path = '[Path]',
-        nvim_lua = '[Builtin]'
+        nvim_lua = '[NVIM]'
       }
     })
   },
 
   sources = {
+    { name = 'nvim_lua' },
+    { name = 'nvim_lsp' },
     { name = 'luasnip' },
     { name = 'buffer' },
     { name = 'path' },
-    { name = 'nvim_lua' }
   },
 
   confirm_opts = {
