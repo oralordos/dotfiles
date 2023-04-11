@@ -62,3 +62,12 @@
 [submodule "nvim/pack/plugins/start/nvim-treesitter"]
 	path = nvim/pack/plugins/start/nvim-treesitter
 	url = git@github.com:nvim-treesitter/nvim-treesitter.git
+[submodule "nvim/pack/plugins/start/neotest"]
+	path = nvim/pack/plugins/start/neotest
+	url = git@github.com:nvim-neotest/neotest.git
+[submodule "nvim/pack/plugins/start/neotest-elixir"]
+	path = nvim/pack/plugins/start/neotest-elixir
+	url = git@github.com:jfpedroza/neotest-elixir.git
+[submodule "nvim/pack/plugins/start/neotest-go"]
+	path = nvim/pack/plugins/start/neotest-go
+	url = git@github.com:nvim-neotest/neotest-go.git

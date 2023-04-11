@@ -63,3 +63,9 @@ keymap('x', '<A-k>', ":move '<-2<CR>gv-gv", opts)
 -- Fuzzy finder
 keymap('n', '<leader>f', "<cmd>Telescope find_files<cr>", opts)
 keymap('n', '<c-t>', '<cmd>Telescope live_grep<cr>', opts)
+
+-- Tests
+keymap('n', '<Leader>l', "<CMD>lua require('neotest').run.run_last()<CR>", opts)
+keymap('n', '<Leader>a', "<CMD>lua require('neotest').run.run(vim.fn.expand('%'))<CR>", opts)
+keymap('n', '<Leader>n', "<CMD>lua require('neotest').run.run()<CR>", opts)
+keymap('n', '<Leader>t', "<CMD>lua require('neotest').summary.toggle()<CR>", opts)
