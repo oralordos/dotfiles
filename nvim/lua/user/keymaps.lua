@@ -59,3 +59,7 @@ keymap('v', '>', '>gv', opts)
 -- move lines up and down
 keymap('x', '<A-j>', ":move '>+1<CR>gv-gv", opts)
 keymap('x', '<A-k>', ":move '<-2<CR>gv-gv", opts)
+
+-- Fuzzy finder
+keymap('n', '<leader>f', "<cmd>Telescope find_files<cr>", opts)
+keymap('n', '<c-t>', '<cmd>Telescope live_grep<cr>', opts)
