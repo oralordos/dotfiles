@@ -71,3 +71,6 @@
 [submodule "nvim/pack/plugins/start/neotest-go"]
 	path = nvim/pack/plugins/start/neotest-go
 	url = git@github.com:nvim-neotest/neotest-go.git
+[submodule "nvim/pack/plugins/start/which-key.nvim"]
+	path = nvim/pack/plugins/start/which-key.nvim
+	url = git@github.com:folke/which-key.nvim.git
